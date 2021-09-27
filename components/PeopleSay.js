@@ -12,9 +12,8 @@ const settings = {
   autoplaySpeed: 3000,
   cssEase: "linear",
   vertical: false,
-  centerMode: true,
   centerPadding: "60px",
-  slidesToShow: 1,
+  slidesToShow: 2,
   rows: 1,
   slidesPerRow: 1,
 };

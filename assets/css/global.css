@@ -1307,7 +1307,7 @@ button {
   display: inline-block;
   background: #fff;
   padding: 4px 14px;
-  margin-bottom: 10px;
+  margin: 2px;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;

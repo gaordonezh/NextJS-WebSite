@@ -23,22 +23,24 @@ const Sidebar = () => {
             </Link>
           </li>
           <li onClick={openSidebar}>
-            <a href="projects.html">Projects</a>
+            <Link href="/projects">
+              <a>Projects</a>
+            </Link>
           </li>
           <li onClick={openSidebar}>
-            <a href="service.html">Service</a>
+            <Link href="/services">
+              <a>Services</a>
+            </Link>
           </li>
           <li onClick={openSidebar}>
-            <a href="elements.html">Elements</a>
+            <Link href="/blog">
+              <a>Blog</a>
+            </Link>
           </li>
           <li onClick={openSidebar}>
-            <a href="blog.html">Blog</a>
-          </li>
-          <li onClick={openSidebar}>
-            <a href="single-blog.html">Blog Details</a>
-          </li>
-          <li onClick={openSidebar}>
-            <a href="contact.html">Contact</a>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
           </li>
         </ul>
       </div>

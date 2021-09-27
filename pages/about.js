@@ -2,11 +2,12 @@ import MainComponent from "../components/MainComponent";
 import SubHeader from "../components/SubHeader";
 import PeopleSay from "../components/PeopleSay";
 import Overview from "../components/Overview";
+import Estimate from "../components/Estimate";
 
-export default function ABOUT() {
+const About = () => {
   return (
-    <MainComponent title="ABOUT">
-      <SubHeader />
+    <MainComponent title="About us">
+      <SubHeader title="About us" />
       <section class="about section-margin mb-5">
         <div class="container">
           <div class="row align-items-center">
@@ -53,32 +54,12 @@ export default function ABOUT() {
       <Overview />
       <br />
       <br />
-      <section class="tips tips-bg">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-7 mb-4 mb-lg-0">
-              <h2 class="section-intro__subtitle">
-                Get to Know Project Estimate?
-              </h2>
-              <p>
-                There is a moment in the life of any aspiring astronomer that it
-                is time to buy that first telescope. It’s exciting to think
-                about setting up your own viewing station whether that is on the
-                deck
-              </p>
-            </div>
-            <div class="col-lg-5 text-center text-lg-right">
-              <a
-                class="btn btn-dark btn--leftBorder btn--rightBorder"
-                href="#/"
-              >
-                Get Estimate
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <br />
+      <br />
+      <Estimate />
       <PeopleSay />
     </MainComponent>
   );
-}
+};
+
+export default About;

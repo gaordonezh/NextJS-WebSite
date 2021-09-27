@@ -1,6 +1,6 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import Head from "next/head";
-import Header from "./Header";
+import Logo from "./Logo";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 
@@ -12,23 +12,7 @@ const Layout = ({ children, title, description }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="title" content={title} />
         <meta name="description" content={description} />
-        <meta name="keywords" content="Netapp Perú" />
-        <meta name="author" content="Yuri Manuel Montenegro Barrantes" />
-        <meta property="og:locale" content="es_ES" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yurimontenegro.com/" />
-        <meta property="og:site_name" content="yurimontenegro.com" />
-        <meta
-          property="article:publisher"
-          content="https://yurimontenegro.com/"
-        />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta
-          property="og:image"
-          content="https://filesdic.s3.us-east-2.amazonaws.com/imgSchool/logo-ym.png"
-        />
-
+        <meta name="author" content="German Ordoñez" />
         <link
           href="https://fonts.googleapis.com/css?family=Oswald:300,400,500"
           rel="stylesheet"
@@ -39,7 +23,7 @@ const Layout = ({ children, title, description }) => {
         />
       </Head>
       <Sidebar />
-      <Header />
+      <Logo />
       <main>{children}</main>
       <Footer />
     </Fragment>
