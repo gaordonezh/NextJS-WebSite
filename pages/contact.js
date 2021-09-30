@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <MainComponent title="Contact">
       <SubHeader title="Contact" />
-      <section class="section-margin">
-        <div class="container">
-          <div class="d-none d-sm-block mb-5 pb-4">
+      <section className="section-margin">
+        <div className="container">
+          <div className="d-none d-sm-block mb-5 pb-4">
             <div id="map" style={{ height: 420 }}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d124853.92158149999!2d-77.037568!3d-12.0651776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1632706303889!5m2!1ses!2spe"
@@ -19,39 +19,39 @@ const Contact = () => {
             </div>
           </div>
 
-          <div class="row align-items-center">
-            <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
-              <div class="media contact-info">
-                <span class="contact-info__icon">
-                  <i class="lnr lnr-home">
+          <div className="row align-items-center">
+            <div className="col-md-4 col-lg-3 mb-4 mb-md-0">
+              <div className="media contact-info">
+                <span className="contact-info__icon">
+                  <i className="lnr lnr-home">
                     <FaPlaceOfWorship />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>California United States</h3>
                   <p>Santa monica bullevard</p>
                 </div>
               </div>
-              <div class="media contact-info">
-                <span class="contact-info__icon">
-                  <i class="lnr lnr-phone-handset">
+              <div className="media contact-info">
+                <span className="contact-info__icon">
+                  <i className="lnr lnr-phone-handset">
                     <FaPlaceOfWorship />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>
                     <a href="tel:454545654">00 (440) 9865 562</a>
                   </h3>
                   <p>Mon to Fri 9am to 6pm</p>
                 </div>
               </div>
-              <div class="media contact-info">
-                <span class="contact-info__icon">
-                  <i class="lnr lnr-envelope">
+              <div className="media contact-info">
+                <span className="contact-info__icon">
+                  <i className="lnr lnr-envelope">
                     <FaPlaceOfWorship />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>
                     <a href="mailto:support@colorlib.com">
                       support@colorlib.com
@@ -61,41 +61,41 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-8 col-lg-9">
-              <form action="#/" class="form-contact">
-                <div class="row">
-                  <div class="col-lg-5">
-                    <div class="form-group">
+            <div className="col-md-8 col-lg-9">
+              <form action="#/" className="form-contact">
+                <div className="row">
+                  <div className="col-lg-5">
+                    <div className="form-group">
                       <input
-                        class="form-control"
+                        className="form-control"
                         name="name"
                         type="text"
                         placeholder="Enter your name"
                         required
                       />
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                       <input
-                        class="form-control"
+                        className="form-control"
                         name="email"
                         type="email"
                         placeholder="Enter email address"
                         required
                       />
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                       <input
-                        class="form-control"
+                        className="form-control"
                         name="subject"
                         type="text"
                         placeholder="Enter Subject"
                       />
                     </div>
                   </div>
-                  <div class="col-lg-7">
-                    <div class="form-group">
+                  <div className="col-lg-7">
+                    <div className="form-group">
                       <textarea
-                        class="form-control different-control w-100"
+                        className="form-control different-control w-100"
                         name="textarea"
                         id="textarea"
                         cols="30"
@@ -105,8 +105,8 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div class="form-group text-center text-md-right">
-                  <button type="submit" class="btn active btn--leftBorder">
+                <div className="form-group text-center text-md-right">
+                  <button type="submit" className="btn active btn--leftBorder">
                     Send Message
                   </button>
                 </div>

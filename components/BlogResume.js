@@ -4,10 +4,10 @@ import { FiMail } from "react-icons/fi";
 
 const BlogResume = () => {
   return (
-    <div class="col-lg-4 sidebar-widgets">
-      <div class="widget-wrap">
-        <div class="single-sidebar-widget search-widget">
-          <form class="search-form" action="#">
+    <div className="col-lg-4 sidebar-widgets">
+      <div className="widget-wrap">
+        <div className="single-sidebar-widget search-widget">
+          <form className="search-form" action="#">
             <input
               placeholder="Search Posts"
               name="search"
@@ -16,43 +16,43 @@ const BlogResume = () => {
               onblur="this.placeholder = 'Search Posts'"
             />
             <button type="submit">
-              <i class="fa fa-search">
+              <i className="fa fa-search">
                 <FaSearch />
               </i>
             </button>
           </form>
         </div>
-        <div class="single-sidebar-widget user-info-widget">
+        <div className="single-sidebar-widget user-info-widget">
           <img src="img/blog/user-info.png" alt="" />
           <a href="#">
             <h4>Charlie Barber</h4>
           </a>
           <p>Senior blog writer</p>
-          <ul class="social-links">
+          <ul className="social-links">
             <li>
               <a href="#">
-                <i class="fab fa-facebook-f">
+                <i className="fab fa-facebook-f">
                   <FaFacebookF />
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-twitter">
+                <i className="fab fa-twitter">
                   <AiOutlineWhatsApp />
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-github">
+                <i className="fab fa-github">
                   <AiOutlineInstagram />
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-behance">
+                <i className="fab fa-behance">
                   <FiMail />
                 </i>
               </a>
@@ -64,47 +64,47 @@ const BlogResume = () => {
             can get. Boot camps have itssuppor ters andits detractors.
           </p>
         </div>
-        <div class="single-sidebar-widget popular-post-widget">
-          <h4 class="popular-title">Popular Posts</h4>
-          <div class="popular-post-list">
-            <div class="single-post-list d-flex flex-row align-items-center">
-              <div class="thumb">
-                <img class="img-fluid" src="img/blog/pp1.jpg" alt="" />
+        <div className="single-sidebar-widget popular-post-widget">
+          <h4 className="popular-title">Popular Posts</h4>
+          <div className="popular-post-list">
+            <div className="single-post-list d-flex flex-row align-items-center">
+              <div className="thumb">
+                <img className="img-fluid" src="img/blog/pp1.jpg" alt="" />
               </div>
-              <div class="details">
+              <div className="details">
                 <a href="/blog-detail">
                   <h6>Space The Final Frontier</h6>
                 </a>
                 <p>02 Hours ago</p>
               </div>
             </div>
-            <div class="single-post-list d-flex flex-row align-items-center">
-              <div class="thumb">
-                <img class="img-fluid" src="img/blog/pp2.jpg" alt="" />
+            <div className="single-post-list d-flex flex-row align-items-center">
+              <div className="thumb">
+                <img className="img-fluid" src="img/blog/pp2.jpg" alt="" />
               </div>
-              <div class="details">
+              <div className="details">
                 <a href="/blog-detail">
                   <h6>The Amazing Hubble</h6>
                 </a>
                 <p>02 Hours ago</p>
               </div>
             </div>
-            <div class="single-post-list d-flex flex-row align-items-center">
-              <div class="thumb">
-                <img class="img-fluid" src="img/blog/pp3.jpg" alt="" />
+            <div className="single-post-list d-flex flex-row align-items-center">
+              <div className="thumb">
+                <img className="img-fluid" src="img/blog/pp3.jpg" alt="" />
               </div>
-              <div class="details">
+              <div className="details">
                 <a href="/blog-detail">
                   <h6>Astronomy Or Astrology</h6>
                 </a>
                 <p>02 Hours ago</p>
               </div>
             </div>
-            <div class="single-post-list d-flex flex-row align-items-center">
-              <div class="thumb">
-                <img class="img-fluid" src="img/blog/pp4.jpg" alt="" />
+            <div className="single-post-list d-flex flex-row align-items-center">
+              <div className="thumb">
+                <img className="img-fluid" src="img/blog/pp4.jpg" alt="" />
               </div>
-              <div class="details">
+              <div className="details">
                 <a href="/blog-detail">
                   <h6>Asteroids telescope</h6>
                 </a>
@@ -113,75 +113,75 @@ const BlogResume = () => {
             </div>
           </div>
         </div>
-        <div class="single-sidebar-widget">
+        <div className="single-sidebar-widget">
           <a href="#">
-            <img class="img-fluid" src="/img/blog/ads-banner.jpg" alt="" />
+            <img className="img-fluid" src="/img/blog/ads-banner.jpg" alt="" />
           </a>
         </div>
-        <div class="single-sidebar-widget post-category-widget">
-          <h4 class="category-title">Post Categories</h4>
-          <ul class="cat-list">
+        <div className="single-sidebar-widget post-category-widget">
+          <h4 className="category-title">Post Categories</h4>
+          <ul className="cat-list">
             <li>
-              <a href="#" class="d-flex justify-content-between">
+              <a href="#" className="d-flex justify-content-between">
                 <p>Technology</p>
                 <p>37</p>
               </a>
             </li>
             <li>
-              <a href="#" class="d-flex justify-content-between">
+              <a href="#" className="d-flex justify-content-between">
                 <p>Lifestyle</p>
                 <p>24</p>
               </a>
             </li>
             <li>
-              <a href="#" class="d-flex justify-content-between">
+              <a href="#" className="d-flex justify-content-between">
                 <p>Fashion</p>
                 <p>59</p>
               </a>
             </li>
             <li>
-              <a href="#" class="d-flex justify-content-between">
+              <a href="#" className="d-flex justify-content-between">
                 <p>Art</p>
                 <p>29</p>
               </a>
             </li>
             <li>
-              <a href="#" class="d-flex justify-content-between">
+              <a href="#" className="d-flex justify-content-between">
                 <p>Food</p>
                 <p>15</p>
               </a>
             </li>
             <li>
-              <a href="#" class="d-flex justify-content-between">
+              <a href="#" className="d-flex justify-content-between">
                 <p>Architecture</p>
                 <p>09</p>
               </a>
             </li>
             <li>
-              <a href="#" class="d-flex justify-content-between">
+              <a href="#" className="d-flex justify-content-between">
                 <p>Adventure</p>
                 <p>44</p>
               </a>
             </li>
           </ul>
         </div>
-        <div class="single-sidebar-widget newsletter-widget">
-          <h4 class="newsletter-title">Newsletter</h4>
+        <div className="single-sidebar-widget newsletter-widget">
+          <h4 className="newsletter-title">Newsletter</h4>
           <p>
             Here, I focus on a range of items and features that we use in life
             without giving them a second thought.
           </p>
-          <div class="form-group d-flex flex-row">
-            <div class="col-autos">
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+          <div className="form-group d-flex flex-row">
+            <div className="col-autos">
+              <div className="input-group">
+                <div className="input-group-prepend">
+                  <div className="input-group-text">
+                    <i className="fa fa-envelope" aria-hidden="true"></i>
                   </div>
                 </div>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="inlineFormInputGroup"
                   placeholder="Enter email"
                   onfocus="this.placeholder = ''"
@@ -189,14 +189,14 @@ const BlogResume = () => {
                 />
               </div>
             </div>
-            <a href="#" class="bbtns">
+            <a href="#" className="bbtns">
               Subcribe
             </a>
           </div>
-          <p class="text-bottom">You can unsubscribe at any time</p>
+          <p className="text-bottom">You can unsubscribe at any time</p>
         </div>
-        <div class="single-sidebar-widget tag-cloud-widget">
-          <h4 class="tagcloud-title">Tag Clouds</h4>
+        <div className="single-sidebar-widget tag-cloud-widget">
+          <h4 className="tagcloud-title">Tag Clouds</h4>
           <ul>
             <li>
               <a href="#">Technology</a>

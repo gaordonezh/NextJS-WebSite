@@ -14,24 +14,24 @@ const Services = () => {
   return (
     <MainComponent title="Services">
       <SubHeader title="Services" />
-      <section class="service section-margin mb-5 pb-5">
-        <div class="container">
-          <div class="section-intro">
-            <h4 class="section-intro__title">OUR Services</h4>
-            <h2 class="section-intro__subtitle bottom-border">
+      <section className="service section-margin mb-5 pb-5">
+        <div className="container">
+          <div className="section-intro">
+            <h4 className="section-intro__title">OUR Services</h4>
+            <h2 className="section-intro__subtitle bottom-border">
               Our Offered Services
             </h2>
           </div>
 
-          <div class="row">
-            <div class="col-sm-6 col-lg-4">
-              <div class="media service__single">
-                <span class="service__singleIcon">
-                  <i class="ti-package">
+          <div className="row">
+            <div className="col-sm-6 col-lg-4">
+              <div className="media service__single">
+                <span className="service__singleIcon">
+                  <i className="ti-package">
                     <GoInbox />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>Total Architecture</h3>
                   <p>
                     If you are looking at blank cassettes on the web lorem ipsum
@@ -40,14 +40,14 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="media service__single">
-                <span class="service__singleIcon">
-                  <i class="ti-home">
+            <div className="col-sm-6 col-lg-4">
+              <div className="media service__single">
+                <span className="service__singleIcon">
+                  <i className="ti-home">
                     <BsCloudFill />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>Total Architecture</h3>
                   <p>
                     If you are looking at blank cassettes on the web lorem ipsum
@@ -56,14 +56,14 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="media service__single">
-                <span class="service__singleIcon">
-                  <i class="ti-brush-alt">
+            <div className="col-sm-6 col-lg-4">
+              <div className="media service__single">
+                <span className="service__singleIcon">
+                  <i className="ti-brush-alt">
                     <BsFolderSymlinkFill />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>Total Architecture</h3>
                   <p>
                     If you are looking at blank cassettes on the web lorem ipsum
@@ -72,14 +72,14 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="media service__single">
-                <span class="service__singleIcon">
-                  <i class="ti-package">
+            <div className="col-sm-6 col-lg-4">
+              <div className="media service__single">
+                <span className="service__singleIcon">
+                  <i className="ti-package">
                     <BsServer />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>Total Architecture</h3>
                   <p>
                     If you are looking at blank cassettes on the web lorem ipsum
@@ -88,14 +88,14 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="media service__single">
-                <span class="service__singleIcon">
-                  <i class="ti-home">
+            <div className="col-sm-6 col-lg-4">
+              <div className="media service__single">
+                <span className="service__singleIcon">
+                  <i className="ti-home">
                     <BsXDiamondFill />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>Total Architecture</h3>
                   <p>
                     If you are looking at blank cassettes on the web lorem ipsum
@@ -104,14 +104,14 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="media service__single">
-                <span class="service__singleIcon">
-                  <i class="ti-brush-alt">
+            <div className="col-sm-6 col-lg-4">
+              <div className="media service__single">
+                <span className="service__singleIcon">
+                  <i className="ti-brush-alt">
                     <BsPentagonFill />
                   </i>
                 </span>
-                <div class="media-body">
+                <div className="media-body">
                   <h3>Total Architecture</h3>
                   <p>
                     If you are looking at blank cassettes on the web lorem ipsum

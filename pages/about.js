@@ -8,13 +8,13 @@ const About = () => {
   return (
     <MainComponent title="About us">
       <SubHeader title="About us" />
-      <section class="about section-margin mb-5">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-5">
-              <div class="about__img text-center text-md-left mb-5 mb-md-0">
-                <img class="img-fluid" src="img/about.png" alt="" />
-                <a href="#/" class="about__img__date text-center">
+      <section className="about section-margin mb-5">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-5">
+              <div className="about__img text-center text-md-left mb-5 mb-md-0">
+                <img className="img-fluid" src="img/about.png" alt="" />
+                <a href="#/" className="about__img__date text-center">
                   <h3>26</h3>
                   <p>
                     Years <br />
@@ -23,10 +23,10 @@ const About = () => {
                 </a>
               </div>
             </div>
-            <div class="col-md-7 pl-xl-5">
-              <div class="section-intro">
-                <h4 class="section-intro__title">About our Company</h4>
-                <h2 class="section-intro__subtitle">
+            <div className="col-md-7 pl-xl-5">
+              <div className="section-intro">
+                <h4 className="section-intro__title">About our Company</h4>
+                <h2 className="section-intro__subtitle">
                   We've been creating <br />
                   Awesome Since 1992
                 </h2>
@@ -44,7 +44,7 @@ const About = () => {
                 dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt.
               </p>
-              <a class="btn btn--rightBorder mt-4" href="#/">
+              <a className="btn btn--rightBorder mt-4" href="#/">
                 Read More
               </a>
             </div>
