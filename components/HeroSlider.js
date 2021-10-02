@@ -22,7 +22,7 @@ const Hero = () => {
       <Slider {...settings}>
         <div className="item">
           <div className="hero__slide">
-            <img src="/img/hero-2.png" alt="" />
+            <img src="/img/hero-1.jpg" alt="" />
             <div className="hero__slideContent text-center">
               <h1>Dream Heaven City</h1>
               <p>
@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
         <div className="item">
           <div className="hero__slide">
-            <img src="/img/hero-1.png" alt="" />
+            <img src="/img/hero-2.jpg" alt="" />
             <div className="hero__slideContent text-center">
               <h1>Dream Heaven City</h1>
               <p>
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
         <div className="item">
           <div className="hero__slide">
-            <img src="/img/hero-3.png" alt="" />
+            <img src="/img/hero-3.jpg" alt="" />
             <div className="hero__slideContent text-center">
               <h1>Dream Heaven City</h1>
               <p>

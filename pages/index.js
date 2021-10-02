@@ -4,6 +4,7 @@ import PeopleSay from "../components/PeopleSay";
 import Overview from "../components/Overview";
 import Estimate from "../components/Estimate";
 import Portfolio from "../components/Portfolio";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
@@ -52,11 +53,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <Overview />
-
       <Portfolio />
-
+      <Team />
       <Estimate />
       <PeopleSay />
     </MainComponent>

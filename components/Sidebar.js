@@ -38,6 +38,11 @@ const Sidebar = () => {
             </Link>
           </li>
           <li onClick={openSidebar}>
+            <Link href="/team">
+              <a>Team</a>
+            </Link>
+          </li>
+          <li onClick={openSidebar}>
             <Link href="/contact">
               <a>Contact</a>
             </Link>
